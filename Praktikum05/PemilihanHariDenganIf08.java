@@ -5,43 +5,20 @@ public class PemilihanHariDenganIf08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
       
-        System.out.print("Masukkan sebuah angka untuk mewakilkan hari (1 sampai 7): ");
+        System.out.print("Enter a number to represent the day (1 to 7): ");
         int angka = sc.nextInt();
-        if (angka == 1)
+        if (angka == 1 || angka == 2 || angka == 3 || angka == 4 || angka == 5)
         {
-            System.out.println("Hari ke-" + angka + " adalah weekday");
+            System.out.println("Day " + angka + " is the weekday");
         }
-        if (angka == 2)
+        if (angka == 6 || angka == 7)
         {
-            System.out.println("Hari ke-" + angka + " adalah weekday");
+            System.out.println("Day " + angka + " is the weekend");
         }
-        if (angka == 3)
-        {
-            System.out.println("Hari ke-" + angka + " adalah weekday");
-        }
-        if (angka == 4)
-        {
-            System.out.println("Hari ke-" + angka + " adalah weekday");
-        }
-        if (angka == 5)
-        {
-            System.out.println("Hari ke-" + angka + " adalah weekday");
-        }
-        if (angka == 6)
-        {
-            System.out.println("Hari ke-" + angka + " adalah weekend");
-        }
-        if (angka == 7)
-        {
-            System.out.println("Hari ke-" + angka + " adalah weekend");
-        }
-        if (angka == 0 )
+        if (angka > 7 || angka == 0 )
         {
             System.out.println("Invalid number");
         }
-        if (angka > 7 )
-        {
-            System.out.println("Invalid number");
-        }
+        
     }
 }
