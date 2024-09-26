@@ -37,11 +37,11 @@ public class PemilihanHariDenganIf08 {
         }
         if (angka == 0 )
         {
-            System.out.println("Angka yang dimasukkan tidak sesuai");
+            System.out.println("Invalid number");
         }
         if (angka > 7 )
         {
-            System.out.println("Angka yang dimasukkan tidak sesuai");
+            System.out.println("Invalid number");
         }
     }
 }
